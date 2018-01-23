@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "removeComments": true,
+      "preserveConstEnums": false,
+      "sourceMap": true,
+      "target": "ES6",
+      "outDir": "./bin"
+    },
+  "exclude": [
+      "node_modules"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "viktor",
+  "version": "0.0.1",
+  "description": "Description goes here",
+  "scripts": {
+    "build": "npm-run-all build:*",
+    "build:ts": "tsc",
+    "lint": "npm-run-all lint:*",
+    "lint:app": "tslint --format verbose 'src/**/*.ts'",
+    "start": "node bin/main.js",
+    "start:dev": "npm install && nodemon -x 'npm run build && npm start' --watch src/ -L -e ts,json",
+    "test": "",
+    "watch": "npm-run-all --parallel watch:**",
+    "watch:tsc": "tsc -w"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "1.11.0",
+    "npm-run-all": "4.0.2",
+    "typescript": "~2.6.2",
+    "tslint": "~5.9.1"
+  },
+  "dependencies": {}
+}

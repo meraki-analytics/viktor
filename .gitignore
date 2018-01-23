@@ -1,0 +1,31 @@
+# OS Specific Files
+*.DS_Store
+
+# Vim
+*.swo
+*.swp
+
+# VSCode
+.vscode/
+
+# Javascript, NodeJS
+node_modules/
+npm-debug.log
+.npm
+
+# Logs
+logs/
+*.log*
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Documentation
+/docs
+
+# Compiled Output
+bin/**
+/coverage
+
+# Testing Output
+.nyc_output/
